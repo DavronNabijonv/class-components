@@ -1,8 +1,6 @@
 @import 'tailwindcss';
 @variant dark (@media (prefers-color-scheme: dark));
 
-/* something for github  */
-
 :root {
   --color-bg-page: #f0f7ff;
   --color-bg-card: #ffffff;
