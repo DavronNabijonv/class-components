@@ -10,10 +10,8 @@ export class SearchForm extends React.Component<ConstructorType> {
   render() {
     return (
       <form
-        className="
-        flex items-center gap-3 absolute top-[20vh] bg-white p-3 rounded-xl left-1/2
-        transform -translate-x-1/2 -translate-y-1/2"
-        onSubmit={(e: React.FormEvent<HTMLFormElement>) => {
+        className="flex items-center gap-3 bg-white p-3 rounded-xl shadow"
+        onSubmit={(e) => {
           e.preventDefault();
           this.props.handleSubmit();
         }}
