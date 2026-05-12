@@ -4,7 +4,7 @@ import { SearchForm } from './search/SearchForm';
 import { ResultDisplay } from './result/ResultDisplay';
 import { Spinner } from './loading/Spinner';
 import { request } from './request/request';
-
+// hello
 type State = {
   query: string;
   result: Record<string, unknown> | null;
